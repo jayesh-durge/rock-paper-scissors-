@@ -29,10 +29,6 @@ rock.addEventListener("click",()=>{ turn('rock') });
 paper.addEventListener("click",()=>{ turn('paper') });
 scissor.addEventListener("click",()=>{ turn('scissor') });
 
-rock.addEventListener("touchstart",()=>{ turn('rock') });
-paper.addEventListener("touchstart",()=>{ turn('paper') });
-scissor.addEventListener("touchstart",()=>{ turn('scissor') });
-
 rock.addEventListener("keydown",()=>{ turn('rock') });
 paper.addEventListener("keydown",()=>{ turn('paper') });
 scissor.addEventListener("keydown",()=>{ turn('scissor') });
